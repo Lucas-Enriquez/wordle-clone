@@ -35,7 +35,7 @@ function App() {
   const onAnyKey = (keycap) => {
     const newBoard = [...board];
     if (letterPos < 5) {
-      newBoard[attempt][letterPos] = keycap;
+      newBoard[attempt][letterPos] = keycap.toUpperCase();
       setBoard(newBoard);
       setCurrAttempt({ attempt: attempt, letterPos: letterPos + 1 });
     }

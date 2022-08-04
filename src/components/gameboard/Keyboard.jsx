@@ -31,7 +31,6 @@ export const Keyboard = (props) => {
     
     return()=> {
       document.removeEventListener('keydown', handleKeyboard);
-
     }
   }, [handleKeyboard]);
 

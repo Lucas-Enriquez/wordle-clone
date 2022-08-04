@@ -41,8 +41,10 @@ function App() {
     }
   };
 
+  console.log(letterPos)
+
   const onBackSpace = () => {
-    if (board[attempt].length < 6 && board[attempt].length === 5) {
+    if (letterPos <= 5 && letterPos >= 1) {
       board[attempt][letterPos - 1] = "";
       setCurrAttempt({ attempt: attempt, letterPos: letterPos - 1 });
     }

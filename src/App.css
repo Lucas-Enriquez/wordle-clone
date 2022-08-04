@@ -140,3 +140,7 @@ h1 {
 #correctLetter {
   background-color: #6aaa64;
 }
+
+@media (min-height: 600px ){
+
+}

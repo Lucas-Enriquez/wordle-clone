@@ -41,7 +41,6 @@ function App() {
     }
   };
 
-  console.log(letterPos)
 
   const onBackSpace = () => {
     if (letterPos <= 5 && letterPos >= 1) {
